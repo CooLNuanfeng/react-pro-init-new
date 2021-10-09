@@ -1,0 +1,18 @@
+.tabbar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: .9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.tabbar div{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .24rem;
+}

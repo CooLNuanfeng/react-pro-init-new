@@ -1,0 +1,30 @@
+.header{
+  position: relative;
+  height: .9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.header-fl{
+  width: .6rem;
+  padding-left: .2rem;
+}
+
+.header-mid{
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.header-fr{
+  width: 2rem;
+  padding-right: .2rem;
+}
